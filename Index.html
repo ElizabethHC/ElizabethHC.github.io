@@ -9,6 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
 </head>
 <body>
 
@@ -128,19 +130,42 @@
 
 	<footer id="connect">
 		<div class="wrapper">
-			<section class="cta cta_footer">
-				<p>Connect with me directly!<br />
-				ehcottle@aol.com</p>
+			<section class="cta cta_footer">	
+					<p>
+				  <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+					Contact me directly!
+				  </button>
+				</p>
+				<div class="collapse" id="collapseExample">
+				  <div class="card card-body">
+						Phone: (815) 575-3651<br /> Email: ehcottle@aol.com
+				  </div>
+				</div>
+						
+						
+					  </div>
+					</div>
+				  </div>
+				</div>
 			</section>
 
 			<div class="footer_widget">
 					<div class="f_cols">
 						<h3>Location</h3>
-						<p>Portland, Oregon<span class="phone">(815) 575-3651</span></p> 	
+						<p>Portland, Oregon</p> 	
 					</div>	
 
 					<div class="f_cols">
-						<h3>Github</h3>
+						<h3><p>
+					  <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+						GitHub
+					  </button>
+					</p>
+					<div class="collapse" id="collapseExample2">
+					  <div class="card card-body">
+						Check out my projects!
+					  </div>
+					</div></h3>
 						<ul>
 						<a href="https://github.com/ElizabethHC">
 						<img src="./img/Git.png" width="60" height="60" alt="" class="talk">
@@ -149,7 +174,16 @@
 						</div>	
 
 					<div class="f_cols">
-						<h3>LinkedIn</h3>
+						<h3><p>
+					  <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+						LinkedIn
+					  </button>
+					</p>
+					<div class="collapse" id="collapseExample3">
+					  <div class="card card-body">
+						Learn more about my professional side and feel free to contact me!
+					  </div>
+					</div></h3>
 						<ul>
 						<a href="https://www.linkedin.com/in/elizabeth-cottle-a9352a182/">
 						<img src="./img/linkedin.png" width="60" height="60" alt="" class="talk">
@@ -158,7 +192,16 @@
 					</div>	
 
 					<div class="f_cols">
-						<h3>Personal</h3>
+						<h3><p>
+					  <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+						Personal
+					  </button>
+					</p>
+					<div class="collapse" id="collapseExample4">
+					  <div class="card card-body">
+						Contact me and get to know me!
+					  </div>
+					</div></h3>
 						<ul>
 						<a href="https://www.facebook.com/Libbums">
 						<img src="./img/cat.gif" width="60" height="60" alt="" class="talk">
@@ -176,5 +219,15 @@
 	</footer><!-- End Footer -->
 
 	        <script src='../ga.js'></script>
+			
+			<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+ <script>
+	$('.popover-dismiss').popover({
+	  trigger: 'focus'
+	})
+	</script>
+ 
 	</body>
 </html>
