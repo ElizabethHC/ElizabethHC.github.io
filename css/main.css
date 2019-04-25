@@ -311,6 +311,15 @@ header.fixed_nav{
     background: #f2f1f1;
 }
 
+.clients h3{
+    color: #1b8e99;
+    font-family: 'open_bold', arial;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .clients ul{
     list-style: none;
 }
