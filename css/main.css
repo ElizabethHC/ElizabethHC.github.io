@@ -256,6 +256,7 @@ header.fixed_nav{
 }
 
 .testimonials ul.testi_boxs{
+	text-align: center;
     list-style: none;
     overflow: hidden;
     margin-top: 80px;
@@ -301,17 +302,23 @@ header.fixed_nav{
     margin-top: 20px;
 }
 
+.testimonials il li {
+	display: block;
+    float: left;    
+}
+
 
 
 
 /*  projects  */
 .clients{
     width: 100%;
-    height: 120px;
+    height: 80px;
     background: #f2f1f1;
 }
 
 .clients h3{
+	text-align: center;
     color: #1b8e99;
     font-family: 'open_bold', arial;
     font-size: 26px;
@@ -335,9 +342,7 @@ header.fixed_nav{
     display: inline-block;
 }
 
-.clients ul li:first-child{
-    margin-left: 42px;
-}
+
 
 
 
